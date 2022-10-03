@@ -15,7 +15,7 @@ const onLeaveFeedback = name => {
     case 'good':
       setGood(s => s + 1);
       break;
-      case 'neutra':
+      case 'neutral':
         setNeutral(s => s + 1);
       break;
       case 'bad':
